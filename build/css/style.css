@@ -1,0 +1,103 @@
+body {
+  width: 100%;
+  display: flex; }
+
+button {
+  background-color: #ffffff;
+  border: 1px solid #3e3e3e; }
+
+input {
+  font-size: 15px;
+  padding: 5px 0;
+  width: 50%; }
+
+ul li {
+  display: block;
+  margin: 1% 0; }
+
+.left-container, .middle-container, .right-container {
+  float: left;
+  width: 33.33%;
+  min-height: 500px; }
+  .left-container input, .middle-container input, .right-container input {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 0.8em;
+    padding: 8px;
+    margin-left: 10px; }
+  .left-container button, .middle-container button, .right-container button {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: #e7b4b4;
+    border-radius: 10px; }
+
+.left-container {
+  background-color: #ddc5c5; }
+  .left-container h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 1% 0;
+    padding: 2% 2%;
+    text-align: center; }
+  .left-container ul {
+    padding: 0; }
+  .left-container span {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 20px; }
+  .left-container .to-do-list-container {
+    margin: 2px;
+    padding: 0 2%;
+    margin-top: 10px; }
+
+.middle-container {
+  background-color: #58c3d5; }
+  .middle-container h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 1% 0;
+    padding: 3% 2%;
+    text-align: center; }
+  .middle-container ul {
+    padding: 15px; }
+  .middle-container li {
+    line-height: 20px;
+    padding: 5px 0px 10px 0px;
+    border: 1px solid bisque;
+    margin-bottom: 10px; }
+  .middle-container span {
+    cursor: pointer; }
+  .middle-container .sub-task-list-icon {
+    margin-right: 5px;
+    float: right; }
+    .middle-container .sub-task-list-icon i {
+      padding: 0 10px; }
+  .middle-container .sub-task-list-content {
+    padding: 0 10px; }
+  .middle-container .sub-task-section {
+    margin-top: 5px;
+    display: block; }
+
+.right-container {
+  background-color: #c3c3c3; }
+  .right-container ul {
+    padding: 15px; }
+  .right-container li {
+    line-height: 20px;
+    padding: 5px 0px 10px 0px;
+    border: 1px solid bisque;
+    margin-bottom: 10px; }
+  .right-container textarea {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 70%; }
+  .right-container .comment-content {
+    padding: 0 10px; }
+  .right-container .comment-section {
+    margin-top: 60px;
+    display: block; }

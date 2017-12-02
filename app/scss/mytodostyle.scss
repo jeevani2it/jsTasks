@@ -1,0 +1,145 @@
+body {
+    width: 100%;
+    display: flex;
+}
+
+button {
+    background-color: $secondary-bg-clr;
+    border: 1px solid $font-color;
+}
+
+input {
+    font-size: 15px;
+    padding: 5px 0;
+    width: 50%;
+}
+
+ul li {
+    display: block;    
+    margin: 1% 0;
+}
+  
+.left-container, .middle-container, .right-container  {
+    float: left;
+    width: 33.33%;
+    min-height: 500px;
+
+    input {
+        background-color: $secondary-bg-clr;
+        border-radius: 5px;
+        color: $input-color;
+        font-size: 0.8em;        
+        padding: 8px;
+        margin-left: 10px;
+    }
+
+    button {
+        cursor: pointer;
+        display: inline-block;
+        margin-left: 20px;
+        padding: 5px 10px;
+        background-color: $button-color;
+        border-radius: 10px;
+    }
+}
+
+.left-container {
+    background-color: $bg-color-left;
+    h2 {
+        font-size: 30px;
+        font-weight: 400;
+        margin: 1% 0;
+        padding: 2% 2%;
+        text-align: center;
+    }
+    ul {
+        padding: 0;
+    }
+    span {
+        cursor: pointer;
+        display: inline-block;
+        padding: 5px 15px;
+        font-size: 20px;
+
+    }    
+    .to-do-list-container {
+        margin: 2px;
+        padding: 0 2%;
+        margin-top: 10px;
+    }
+}
+
+.middle-container {
+    background-color: $bg-color-middle;
+
+    h4 {
+        font-size: 20px;
+        font-weight: 300;
+        margin: 1% 0;
+        padding: 3% 2%;
+        text-align: center;
+    }
+
+    ul {
+        padding: 15px;
+    }
+
+    li {
+        line-height: 20px;
+        padding: 5px 0px 10px 0px;
+        border: 1px solid bisque;
+        margin-bottom: 10px;
+    }
+
+    span {
+        cursor: pointer;
+    }
+
+    .sub-task-list-icon {
+        i {
+            padding: 0 10px;
+        }
+        margin-right: 5px;
+        float: right;
+    }
+
+    .sub-task-list-content {
+        padding: 0 10px;
+    }
+
+    .sub-task-section {
+        margin-top: 5px;
+        display: block;
+    }
+}
+
+.right-container {
+    background-color: $bg-color-right;
+
+    ul {
+        padding: 15px;
+    }
+
+    li {
+        line-height: 20px;
+        padding: 5px 0px 10px 0px;
+        border: 1px solid bisque;
+        margin-bottom: 10px;
+    }
+
+    textarea {
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: 5px;
+        width: 70%;
+    }
+
+    .comment-content {
+        padding: 0 10px;
+    }
+
+    .comment-section {
+        margin-top: 60px;
+        display: block;
+    }
+}
